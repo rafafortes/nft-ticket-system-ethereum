@@ -20,29 +20,29 @@ Make sure to create the following files in the root folder of the ethereum:
 
 Installing the backend packages
 
-cd backend
-npm install
+- cd backend && npm install
 
 Installing the ethereum packages
 
-cd ethereum
-npm install
+- cd ethereum && npm install
 
 Installing the frontend packages
 
-cd frontend
-npm install
+- cd frontend && npm install
 
 ## Compilation
 
-cd ethereum
-npx hardhat compile
+- cd ethereum && npx hardhat compile
 
 ## Tests
 
-cd ethereum
-npx hardhat test
+- cd ethereum && npx hardhat test
 
 ## Deploy
 
 - npx hardhat run --network localhost scripts/deploy.js
+
+## Initialization
+
+- cd backend && npm run start
+- cd frontend && npm run start
